@@ -1,0 +1,34 @@
+Occuchrome is a general purpose iOS App to do statistical analysis of colorimetric assays.
+
+Inception
+
+Fall 2013-Spring 2014 BIOMARKER DETECTION APP
+
+In the fall of 2013, members of the Remcho Group (Chadd and Chris) drafted a proposal for submission to the OSU engineering program's CS Capstone program. It was selected by three CS majors who, previous to this project, had little iOS programming experience. Over time they learned to build iOS apps, access the camera(s) via the OpenCV module, collect data into a database and process it statistically to produce results that an analytical or clinical chemist can use in developing new detection chemistries.
+
+The App currently works on late model iOS devices to quantify a colorimetric chemical signal using the built in camera and a fixture to hold it in the correct position relative to the sample chemistry. Eventually this webpage will be the main support page for the App as version 1.0 is anticipated by the end of Spring 2014. With an open source license, we anticipate further improvements by next year's CS Capstone candidates as well as by those in the community.
+
+Ongoing development is expected and patch requests from the community are welcome.
+
+For more information see the Remcho Research Group wiki -- https://remchowiki.science.oregonstate.edu/doku.php?id=biomarkerapp
+and github for the source -- https://github.com/biomarkers
+
+Note: xcode framework versions of OpenCV and Boost are necessary to build from source.
+
+
+Summer 2014
+Chadd Armstrong
+armstrch@uw.edu armstrch@onid.orst.edu
+
+
+##Version 1.0.1 — Summer 2014 refactoring
+
+*Updated licensing header to reflect all the original project members
+*Collapsed image format conversions in processing callback to a single conversion, removed a memory leak where a pointer was set to null without releasing the memory object first.
+*Standardized coordinate systems -- X,Y references UI overlay except where passed off with image data for processing by the vision modules
+  Scaling, rotation and flipping depending on camera used -- front has a rotation -- back has a rotation and a flip -- both scale from display resolution to capture resolution (currently locked at 640x480)
+*Changed ROI selection from double tap to swipe
+
+
+##Version 1.0 — team koala initial project
+

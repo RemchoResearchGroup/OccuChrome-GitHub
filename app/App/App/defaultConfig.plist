@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kROIMode</key>
+	<integer>1</integer>
+	<key>kROIR</key>
+	<integer>30</integer>
+	<key>kCameraLocation</key>
+	<integer>1</integer>
+	<key>kCameraLighting</key>
+	<integer>0</integer>
+	<key>kROIX</key>
+	<integer>318</integer>
+	<key>kROIY</key>
+	<integer>238</integer>
+	<key>kLightingLevel</key>
+	<integer>1</integer>
+	<key>kFPS</key>
+	<integer>30</integer>
+</dict>
+</plist>
